@@ -1,0 +1,414 @@
+
+
+****************** Detrended Correspondence Analysis (DCA) ******************
+PC-ORD, Version 4.07        
+ 4 Jan 2005, 14:57
+
+DCa on presence/ absence of all species by treatment                            
+Number of non-zero data items:     1512
+
+No downweighting
+Axes are rescaled
+Number of segments: 30
+Threshold:  0.00
+
+
+
+Total variance ("inertia") in the species data:   6.6207
+
+
+                    ---------- Axis 1 ----------
+
+ 0.1190386787 = residual at iteration   0
+ 0.0104158996 = residual at iteration   1
+ 0.0365652964 = residual at iteration   2
+ 0.0051239273 = residual at iteration   3
+ 0.0012689274 = residual at iteration   4
+ 0.0002333561 = residual at iteration   5
+ 0.0000589962 = residual at iteration   6
+ 0.0000110007 = residual at iteration   7
+ 0.0000028160 = residual at iteration   8
+ 0.0000005402 = residual at iteration   9
+ 0.0000007460 = residual at iteration  10
+ 0.0000002293 = residual at iteration  11
+ 0.1184031516 = residual at iteration  12
+ 0.0125438496 = residual at iteration  13
+ 0.0031659552 = residual at iteration  14
+ 0.0004213786 = residual at iteration  15
+ 0.0001090383 = residual at iteration  16
+ 0.0000171849 = residual at iteration  17
+ 0.0000044750 = residual at iteration  18
+ 0.0000007425 = residual at iteration  19
+ 0.0000003112 = residual at iteration  20
+ 0.0000000561 = residual at iteration  21
+ 0.3589658141 = eigenvalue
+
+
+Length of gradient:     2.521
+Length of segments:  0.17  0.20  0.25  0.29  0.30  0.28  0.26  0.22  0.17  0.12
+Length of segments:  0.10  0.09  0.08
+Length of gradient:     2.935
+
+
+Length of gradient:     2.824
+Length of segments:  0.16  0.17  0.18  0.20  0.21  0.22  0.22  0.21  0.20  0.19
+Length of segments:  0.18  0.17  0.17  0.17  0.16
+Length of gradient:     2.779
+
+
+                    ---------- Axis 2 ----------
+
+ 0.0903649479 = residual at iteration   0
+ 0.0104054557 = residual at iteration   1
+ 0.0008006909 = residual at iteration   2
+ 0.0000608422 = residual at iteration   3
+ 0.0000073567 = residual at iteration   4
+ 0.0000007339 = residual at iteration   5
+ 0.0000001171 = residual at iteration   6
+ 0.0538503826 = residual at iteration   7
+ 0.0353208408 = residual at iteration   8
+ 0.0049529881 = residual at iteration   9
+ 0.0004188883 = residual at iteration  10
+ 0.0000478991 = residual at iteration  11
+ 0.0000041402 = residual at iteration  12
+ 0.0000004748 = residual at iteration  13
+ 0.0000000624 = residual at iteration  14
+ 0.2544660866 = eigenvalue
+
+
+Length of gradient:     2.522
+Length of segments:  0.18  0.21  0.23  0.24  0.25  0.25  0.24  0.22  0.19  0.16
+Length of segments:  0.13  0.11  0.10
+Length of gradient:     2.760
+
+
+Length of gradient:     2.680
+Length of segments:  0.17  0.18  0.18  0.19  0.19  0.19  0.20  0.20  0.21  0.21
+Length of segments:  0.21  0.20  0.18  0.17
+Length of gradient:     2.614
+
+
+                    ---------- Axis 3 ----------
+
+ 0.0418831222 = residual at iteration   0
+ 0.0252421014 = residual at iteration   1
+ 0.0136513757 = residual at iteration   2
+ 0.0067479960 = residual at iteration   3
+ 0.0024955142 = residual at iteration   4
+ 0.0010010726 = residual at iteration   5
+ 0.0003669231 = residual at iteration   6
+ 0.0001475855 = residual at iteration   7
+ 0.0000544172 = residual at iteration   8
+ 0.0000219534 = residual at iteration   9
+ 0.0000081264 = residual at iteration  10
+ 0.0000032832 = residual at iteration  11
+ 0.0000012353 = residual at iteration  12
+ 0.0000004879 = residual at iteration  13
+ 0.0000001871 = residual at iteration  14
+ 0.0000000937 = residual at iteration  15
+ 0.2024914622 = eigenvalue
+
+
+Length of gradient:     1.987
+Length of segments:  0.13  0.19  0.24  0.27  0.28  0.28  0.25  0.17  0.10  0.08
+Length of gradient:     2.126
+
+
+Length of gradient:     2.162
+Length of segments:  0.17  0.19  0.21  0.22  0.22  0.22  0.21  0.21  0.19  0.17
+Length of segments:  0.16
+Length of gradient:     2.115
+
+
+
+
+DCa on presence/ absence of all species by treatment                            
+
+SPECIES SCORES
+
+    N    NAME     AX1  AX2  AX3      |       RANKED 1      |       RANKED 2
+                                     |      EIG=0.359      |      EIG=0.254      |
+     1 ABIBAL     141  222  131      |   172 SYMLAT    410 |   189 UVUSES    486 |
+     2 ACEPEN     -15  322    0      |    29 CALSEP    410 |   180 THESPP    476 |
+     3 ACERUB     134  200  125      |    66 GALTRI    405 |     6 ACTRUB    462 |
+     4 ACESAC       8  326  212      |   150 RIBHIR    405 |   182 TILAME    444 |
+     5 ACESPA      76  -86   61      |    79 HYDAME    405 |   179 THESIM    412 |
+     6 ACTRUB     302  462   65      |    30 CIRALP    405 |   101 MAIRAC    390 |
+     7 ALNINC     216  -64   35      |    65 GALPAL    393 |   143 PYRELL    388 |
+     8 AMELAE     -30  -21  280      |    83 IMPCAP    393 |   187 TRIUND    357 |
+     9 AMESPP     -26  208 -102      |   146 RANABO    384 |   186 TRISPP    350 |
+    10 ANAMAR     299  -21  -49      |    63 FRAVIR    384 |   126 POLACR    338 |
+    11 ARAHIS      87  -54  -12      |    15 ARITRI    375 |     4 ACESAC    326 |
+    12 ARANUD     238   97  110      |    44 DRYCRI    366 |     2 ACEPEN    322 |
+    13 ARASPI    -104   98  193      |   161 SCULAT    364 |   113 OSTVIR    321 |
+    14 ARIATR     -20  286  217      |    98 LYCUNI    359 |   128 POLPUB    310 |
+    15 ARITRI     375  229 -111      |   183 TOXRAD    333 |    71 GYMDRY    309 |
+    16 ASPSPP    -124   84  427      |    53 EQUPRA    333 |    42 DRYBOO    307 |
+    17 ASPTRI     -80   81  353      |    78 HIESPP    323 |   142 PYRCHL    293 |
+    18 ASTACC     286  -24 -104      |   111 OSMCIN    315 |    76 HIEPIL    289 |
+    19 ASTACU     269  -25  -73      |    45 DRYGOL    311 |    91 LOBINF    289 |
+    20 ASTRAD     308  -18  229      |    20 ASTRAD    308 |    14 ARIATR    286 |
+    21 ASTSPP      -3  -21 -103      |    41 DOEUMB    308 |   133 POPSPP    269 |
+    22 ASTUMB     308   27  -42      |    43 DRYCOL    308 |   178 THEPHE    240 |
+    23 ASTVIM      82 -149  234      |   173 SYMNOV-B  308 |    90 LINVUL    240 |
+    24 ATHFIL     289  -46  190      |   175 SYMRAC    308 |   196 VICTET    240 |
+    25 BETALL     -49   50   58      |    22 ASTUMB    308 |    56 EUPSPP    240 |
+    26 BETPAP     101   23  126      |    52 EQUARV    308 |    62 FRASPP    234 |
+    27 BETPOP    -138  172 -174      |    54 EREHIE    308 |    15 ARITRI    229 |
+    28 BETSPP     299   -3  -80      |   181 THUOCC    307 |    45 DRYGOL    226 |
+    29 CALSEP     410  189  356      |   116 OXAMON    303 |     1 ABIBAL    222 |
+    30 CIRALP     405   37 -148      |     6 ACTRUB    302 |   183 TOXRAD    218 |
+    31 CLIBOR     251  -41  165      |    64 GALASP    299 |   188 TSUCAN    218 |
+    32 COPTRI     288  -29   31      |    10 ANAMAR    299 |   167 SOLNEM    210 |
+    33 CORAME     237   74    3      |    28 BETSPP    299 |   130 POLSPP    208 |
+    34 CORCAN     267  -31   77      |   171 STRLAN    292 |    70 GRANEG    208 |
+    35 CORCOR      11   33  261      |   187 TRIUND    291 |   148 RANHIS    208 |
+    36 CYPACA     211  -84  -45      |    51 EPILEP    291 |     9 AMESPP    208 |
+    37 CYSFRA    -118  -19  428      |   156 RUBHIS    289 |   159 RUBOXA    208 |
+    38 CYSSPP     -20  -20  -99      |    24 ATHFIL    289 |    87 LATCAN    208 |
+    39 DENPUN    -117   33 -159      |    32 COPTRI    288 |     3 ACERUB    200 |
+    40 DIELON     188 -116  -54      |   131 POLVIR    286 |   185 TRIHYB    199 |
+    41 DOEUMB     308  -18  229      |   147 RANACR    286 |    60 FRAAME    199 |
+    42 DRYBOO     -41  307   35      |    18 ASTACC    286 |   124 PINSTR    194 |
+    43 DRYCOL     308  -18  229      |   104 MITNUD    286 |   100 MAICAN    190 |
+    44 DRYCRI     366   98  226      |   192 VACOXY    285 |   172 SYMLAT    189 |
+    45 DRYGOL     311  226    9      |   109 ONOSEN    282 |    29 CALSEP    189 |
+    46 DRYMAR     225   73 -113      |   136 POTSIM    281 |   171 STRLAN    182 |
+    47 DRYSPP     -11  109  243      |   112 OSMCLA    278 |   165 SOLGIG    176 |
+    48 EPIANG    -138  -31  263      |   118 PHOMEL    278 |    27 BETPOP    172 |
+    49 EPIGLA     -50   39  261      |   151 RIBLAC    276 |   168 SOLPUB    142 |
+    50 EPIHEL    -118  -19  428      |   113 OSTVIR    276 |   181 THUOCC    141 |
+    51 EPILEP     291  -30  243      |    67 GAUHIS    272 |   119 PICABI    119 |
+    52 EQUARV     308   27  -42      |    71 GYMDRY    270 |    97 LYCOBS    118 |
+    53 EQUPRA     333   99  245      |    19 ASTACU    269 |    75 HIELAC    116 |
+    54 EREHIE     308  -18  229      |    34 CORCAN    267 |   116 OXAMON    115 |
+    55 ERYCHE     -45  -64  104      |   174 SYMPUN    267 |   112 OSMCLA    113 |
+    56 EUPSPP    -131  240  427      |   160 RUBPUB    265 |    47 DRYSPP    109 |
+    57 EUTGRA     -33  -34  229      |   102 MEDVIR    263 |    72 HIEAUR    106 |
+    58 EUTTEN     166   47  328      |   170 SOLSPP    261 |    53 EQUPRA     99 |
+    59 FAGGRA     -19   54   22      |   141 PYRAME    257 |    44 DRYCRI     98 |
+    60 FRAAME      92  199  110      |   123 PINRES    256 |    13 ARASPI     98 |
+    61 FRANIG     189  -46  100      |   138 PRUVIR    254 |    12 ARANUD     97 |
+    62 FRASPP      -2  234  -15      |   105 MITREP    254 |   145 QUERUB     96 |
+    63 FRAVIR     384    5  -72      |   154 RUBDAL    252 |   184 TRIBOR     96 |
+    64 GALASP     299   -3  -80      |    31 CLIBOR    251 |   135 POTNOR     95 |
+    65 GALPAL     393   52  261      |    68 GAUPRO    247 |   105 MITREP     88 |
+    66 GALTRI     405   37 -148      |   144 PYRROT    243 |    16 ASPSPP     84 |
+    67 GAUHIS     272  -40  -50      |   162 SILESPP   243 |    17 ASPTRI     81 |
+    68 GAUPRO     247  -42  -27      |   110 ORTSEC    243 |    33 CORAME     74 |
+    69 GERSPP      -5 -256   71      |    84 KALANG    240 |    46 DRYMAR     73 |
+    70 GRANEG    -110  208 -308      |    12 ARANUD    238 |   163 SOLALT     68 |
+    71 GYMDRY     270  309  -62      |    33 CORAME    237 |    77 HIEPRA     63 |
+    72 HIEAUR    -115  106  284      |   186 TRISPP    236 |    98 LYCUNI     59 |
+    73 HIECAE       3 -194  233      |   167 SOLNEM    234 |   177 THENOV     54 |
+    74 HIEFLO      12 -133  269      |   197 VIOSPP    233 |    59 FAGGRA     54 |
+    75 HIELAC     -45  116 -134      |   119 PICABI    233 |    65 GALPAL     52 |
+    76 HIEPIL    -132  289 -181      |   191 VACMYR    230 |    83 IMPCAP     52 |
+    77 HIEPRA     -70   63 -140      |   189 UVUSES    229 |    25 BETALL     50 |
+    78 HIESPP     323    5  301      |    46 DRYMAR    225 |   134 POPTRE     49 |
+    79 HYDAME     405   37 -148      |   101 MAIRAC    223 |    58 EUTTEN     47 |
+    80 HYPSPP    -151  -58 -104      |    81 ILESPP    219 |    92 LONCAN     44 |
+    81 ILESPP     219  -60  -73      |     7 ALNINC    216 |    49 EPIGLA     39 |
+    82 ILEVER     -89   20  162      |   122 PICSPP    214 |    66 GALTRI     37 |
+    83 IMPCAP     393   52  261      |    36 CYPACA    211 |   150 RIBHIR     37 |
+    84 KALANG     240   36  -66      |   140 PTEAQU    200 |    79 HYDAME     37 |
+    85 LACCAN      -5 -256   71      |    89 LINBOR    198 |    30 CIRALP     37 |
+    86 LACSCA     -45  -64  104      |    61 FRANIG    189 |    84 KALANG     36 |
+    87 LATCAN    -110  208 -308      |    40 DIELON    188 |    35 CORCOR     33 |
+    88 LEOAUT     137  -79  116      |   145 QUERUB    175 |    39 DENPUN     33 |
+    89 LINBOR     198  -46  -32      |    95 LYCCLA    173 |    22 ASTUMB     27 |
+    90 LINVUL    -131  240  427      |    58 EUTTEN    166 |    52 EQUARV     27 |
+    91 LOBINF    -132  289 -181      |   115 OXAEUR    165 |    26 BETPAP     23 |
+    92 LONCAN      38   44    1      |   190 VACANG    160 |   132 POPGRA     21 |
+    93 LONMOR    -107   -1  284      |   100 MAICAN    153 |   155 RUBFLA     20 |
+    94 LONSPP    -145  -14 -168      |     1 ABIBAL    141 |    82 ILEVER     20 |
+    95 LYCCLA     173  -41  124      |   184 TRIBOR    140 |   102 MEDVIR     18 |
+    96 LYCHIC      17 -140   83      |    88 LEOAUT    137 |   121 PICRUB     17 |
+    97 LYCOBS      13  118  -81      |     3 ACERUB    134 |   111 OSMCIN     15 |
+    98 LYCUNI     359   59  306      |   103 MELLIN    133 |   169 SOLRUG      8 |
+    99 LYSQUA      50 -158  -54      |   180 THESPP    110 |   146 RANABO      5 |
+   100 MAICAN     153  190   62      |   124 PINSTR    102 |    78 HIESPP      5 |
+   101 MAIRAC     223  390  -37      |    26 BETPAP    101 |    63 FRAVIR      5 |
+   102 MEDVIR     263   18    5      |   188 TSUCAN     98 |   158 RUBOCC      1 |
+   103 MELLIN     133  -95  -48      |    60 FRAAME     92 |    93 LONMOR     -1 |
+   104 MITNUD     286  -24 -104      |   142 PYRCHL     87 |    64 GALASP     -3 |
+   105 MITREP     254   88  108      |    11 ARAHIS     87 |    28 BETSPP     -3 |
+   106 MONUNI     -20  -20  -99      |    23 ASTVIM     82 |   139 PRUVUL     -5 |
+   107 NEMMUC     -30  -39  -88      |     5 ACESPA     76 |   141 PYRAME     -5 |
+   108 OCLACU       0  -17   44      |   182 TILAME     68 |   164 SOLCAN     -9 |
+   109 ONOSEN     282  -14  280      |   126 POLACR     59 |   197 VIOSPP    -11 |
+   110 ORTSEC     243  -26    9      |    99 LYSQUA     50 |   136 POTSIM    -12 |
+   111 OSMCIN     315   15  -41      |   134 POPTRE     49 |   149 RHUHIR    -14 |
+   112 OSMCLA     278  113  173      |    92 LONCAN     38 |    94 LONSPP    -14 |
+   113 OSTVIR     276  321  174      |   128 POLPUB     38 |   109 ONOSEN    -14 |
+   114 OXACOR    -151  -58 -104      |   179 THESIM     35 |   125 PINSTR    -14 |
+   115 OXAEUR     165  -26  268      |   195 VIBNUD     20 |   127 POLCON    -14 |
+   116 OXAMON     303  115  242      |    96 LYCHIC     17 |   153 RUBALL    -16 |
+   117 OXASPP     -45  -64  104      |    97 LYCOBS     13 |   161 SCULAT    -17 |
+   118 PHOMEL     278  -31  251      |    74 HIEFLO     12 |   108 OCLACU    -17 |
+   119 PICABI     233  119  -57      |    35 CORCOR     11 |    20 ASTRAD    -18 |
+   120 PICGLA     -30  -21  280      |   121 PICRUB     10 |    41 DOEUMB    -18 |
+   121 PICRUB      10   17   26      |   177 THENOV      8 |   173 SYMNOV-B  -18 |
+   122 PICSPP     214 -102  121      |     4 ACESAC      8 |    43 DRYCOL    -18 |
+   123 PINRES     256  -74   37      |   139 PRUVUL      5 |    54 EREHIE    -18 |
+   124 PINSTR     102  194   92      |    73 HIECAE      3 |   175 SYMRAC    -18 |
+   125 PINSTR    -145  -14 -168      |   166 SOLHIS      3 |    37 CYSFRA    -19 |
+   126 POLACR      59  338  257      |   108 OCLACU      0 |   193 VACSTA    -19 |
+   127 POLCON    -145  -14 -168      |    62 FRASPP     -2 |    50 EPIHEL    -19 |
+   128 POLPUB      38  310  225      |    21 ASTSPP     -3 |    38 CYSSPP    -20 |
+   129 POLSCA    -151  -58 -104      |    69 GERSPP     -5 |   106 MONUNI    -20 |
+   130 POLSPP    -110  208 -308      |    85 LACCAN     -5 |    21 ASTSPP    -21 |
+   131 POLVIR     286  -22  278      |   133 POPSPP     -6 |   176 TAROFF    -21 |
+   132 POPGRA     -12   21  131      |   157 RUBIDA     -9 |   152 ROSVIR    -21 |
+   133 POPSPP      -6  269  -46      |    47 DRYSPP    -11 |     8 AMELAE    -21 |
+   134 POPTRE      49   49  196      |   132 POPGRA    -12 |    10 ANAMAR    -21 |
+   135 POTNOR     -88   95  211      |     2 ACEPEN    -15 |   120 PICGLA    -21 |
+   136 POTSIM     281  -12  296      |   137 PRUPEN    -19 |   131 POLVIR    -22 |
+   137 PRUPEN     -19  -30   77      |    59 FAGGRA    -19 |   174 SYMPUN    -23 |
+   138 PRUVIR     254  -59  236      |    38 CYSSPP    -20 |   160 RUBPUB    -23 |
+   139 PRUVUL       5   -5  -61      |   106 MONUNI    -20 |   147 RANACR    -24 |
+   140 PTEAQU     200  -57  -35      |    14 ARIATR    -20 |    18 ASTACC    -24 |
+   141 PYRAME     257   -5  214      |   169 SOLRUG    -20 |   104 MITNUD    -24 |
+   142 PYRCHL      87  293  -58      |     9 AMESPP    -26 |    19 ASTACU    -25 |
+   143 PYRELL     -43  388 -118      |   152 ROSVIR    -30 |   156 RUBHIS    -25 |
+   144 PYRROT     243  -26    9      |     8 AMELAE    -30 |   162 SILESPP   -26 |
+   145 QUERUB     175   96   -3      |   176 TAROFF    -30 |   110 ORTSEC    -26 |
+   146 RANABO     384    5  -72      |   107 NEMMUC    -30 |   115 OXAEUR    -26 |
+   147 RANACR     286  -24 -104      |   120 PICGLA    -30 |   144 PYRROT    -26 |
+   148 RANHIS    -110  208 -308      |    57 EUTGRA    -33 |   192 VACOXY    -27 |
+   149 RHUHIR    -145  -14 -168      |    42 DRYBOO    -41 |   195 VIBNUD    -27 |
+   150 RIBHIR     405   37 -148      |   143 PYRELL    -43 |    32 COPTRI    -29 |
+   151 RIBLAC     276  -42  235      |    75 HIELAC    -45 |   137 PRUPEN    -30 |
+   152 ROSVIR     -30  -21  280      |    86 LACSCA    -45 |    51 EPILEP    -30 |
+   153 RUBALL     -76  -16  179      |    55 ERYCHE    -45 |   194 VEROFF    -31 |
+   154 RUBDAL     252  -55  225      |   117 OXASPP    -45 |    34 CORCAN    -31 |
+   155 RUBFLA     -89   20  162      |    25 BETALL    -49 |   118 PHOMEL    -31 |
+   156 RUBHIS     289  -25  -44      |    49 EPIGLA    -50 |   157 RUBIDA    -31 |
+   157 RUBIDA      -9  -31  127      |   164 SOLCAN    -66 |    48 EPIANG    -31 |
+   158 RUBOCC     -85    1  145      |    77 HIEPRA    -70 |    57 EUTGRA    -34 |
+   159 RUBOXA    -110  208 -308      |   168 SOLPUB    -70 |   107 NEMMUC    -39 |
+   160 RUBPUB     265  -23   63      |   153 RUBALL    -76 |    67 GAUHIS    -40 |
+   161 SCULAT     364  -17  256      |    17 ASPTRI    -80 |    31 CLIBOR    -41 |
+   162 SILESPP    243  -26    9      |   158 RUBOCC    -85 |    95 LYCCLA    -41 |
+   163 SOLALT    -124   68 -104      |   135 POTNOR    -88 |    68 GAUPRO    -42 |
+   164 SOLCAN     -66   -9  273      |    82 ILEVER    -89 |   151 RIBLAC    -42 |
+   165 SOLGIG     -90  176 -163      |   155 RUBFLA    -89 |    89 LINBOR    -46 |
+   166 SOLHIS       3 -194  233      |   165 SOLGIG    -90 |    24 ATHFIL    -46 |
+   167 SOLNEM     234  210  322      |   194 VEROFF    -92 |    61 FRANIG    -46 |
+   168 SOLPUB     -70  142  213      |   185 TRIHYB   -100 |    11 ARAHIS    -54 |
+   169 SOLRUG     -20    8   44      |    13 ARASPI   -104 |   154 RUBDAL    -55 |
+   170 SOLSPP     261  -76  254      |    93 LONMOR   -107 |   191 VACMYR    -55 |
+   171 STRLAN     292  182  254      |   159 RUBOXA   -110 |   140 PTEAQU    -57 |
+   172 SYMLAT     410  189  356      |   130 POLSPP   -110 |   129 POLSCA    -58 |
+   173 SYMNOV-B   308  -18  229      |    87 LATCAN   -110 |    80 HYPSPP    -58 |
+   174 SYMPUN     267  -23  178      |    70 GRANEG   -110 |   114 OXACOR    -58 |
+   175 SYMRAC     308  -18  229      |   148 RANHIS   -110 |   138 PRUVIR    -59 |
+   176 TAROFF     -30  -21  280      |    72 HIEAUR   -115 |    81 ILESPP    -60 |
+   177 THENOV       8   54  292      |    39 DENPUN   -117 |   117 OXASPP    -64 |
+   178 THEPHE    -131  240  427      |    37 CYSFRA   -118 |    55 ERYCHE    -64 |
+   179 THESIM      35  412  264      |   193 VACSTA   -118 |    86 LACSCA    -64 |
+   180 THESPP     110  476  226      |    50 EPIHEL   -118 |     7 ALNINC    -64 |
+   181 THUOCC     307  141  193      |    16 ASPSPP   -124 |   190 VACANG    -66 |
+   182 TILAME      68  444  249      |   163 SOLALT   -124 |   123 PINRES    -74 |
+   183 TOXRAD     333  218   89      |    90 LINVUL   -131 |   170 SOLSPP    -76 |
+   184 TRIBOR     140   96    7      |   196 VICTET   -131 |    88 LEOAUT    -79 |
+   185 TRIHYB    -100  199  341      |   178 THEPHE   -131 |    36 CYPACA    -84 |
+   186 TRISPP     236  350  284      |    56 EUPSPP   -131 |     5 ACESPA    -86 |
+   187 TRIUND     291  357  112      |    76 HIEPIL   -132 |   103 MELLIN    -95 |
+   188 TSUCAN      98  218   65      |    91 LOBINF   -132 |   122 PICSPP   -102 |
+   189 UVUSES     229  486  -39      |    48 EPIANG   -138 |    40 DIELON   -116 |
+   190 VACANG     160  -66   10      |    27 BETPOP   -138 |    74 HIEFLO   -133 |
+   191 VACMYR     230  -55  139      |    94 LONSPP   -145 |    96 LYCHIC   -140 |
+   192 VACOXY     285  -27  -61      |   125 PINSTR   -145 |    23 ASTVIM   -149 |
+   193 VACSTA    -118  -19  428      |   127 POLCON   -145 |    99 LYSQUA   -158 |
+   194 VEROFF     -92  -31  257      |   149 RHUHIR   -145 |    73 HIECAE   -194 |
+   195 VIBNUD      20  -27  142      |   129 POLSCA   -151 |   166 SOLHIS   -194 |
+   196 VICTET    -131  240  427      |   114 OXACOR   -151 |    85 LACCAN   -256 |
+   197 VIOSPP     233  -11  215      |    80 HYPSPP   -151 |    69 GERSPP   -256 |
+
+
+
+
+DCa on presence/ absence of all species by treatment                            
+
+SAMPLE SCORES - WHICH ARE WEIGHTED MEAN SPECIES SCORES
+
+    N    NAME     AX1  AX2  AX3      |       RANKED 1      |       RANKED 2
+                                     |      EIG=0.359      |      EIG=0.254      |
+     1 A3          94   42  149      |    52 H7        277 |    66 D5        261 |
+     2 A8         131   60   74      |    46 D3        268 |    29 J2        248 |
+     3 B2         115   77   81      |    47 D4        235 |    51 E6        247 |
+     4 B4          89    0  105      |    48 D5        234 |    71 F4        228 |
+     5 B5          80  124  111      |    15 E2        203 |    73 G5        228 |
+     6 B7         159   43  105      |    58 B2        197 |    63 C4        225 |
+     7 B8         145   50   49      |    14 D7        192 |    70 F3        222 |
+     8 C2          87   73   90      |    19 F2        191 |    74 G6        219 |
+     9 C4          79   71  135      |    73 G5        184 |    55 A2        209 |
+    10 C6         122   35   57      |    56 A5        181 |    69 E5        205 |
+    11 C7         174   44  150      |    17 E4        177 |    57 A6        201 |
+    12 D2           0   40   74      |    11 C7        174 |    65 D0        200 |
+    13 D6         156   60   70      |    22 F6        168 |    40 C1        193 |
+    14 D7         192   49  119      |    53 J2        164 |    54 J4        188 |
+    15 E2         203   76   76      |    21 F4        163 |    45 CD4       187 |
+    16 E3          19  105    0      |     6 B7        159 |    61 B7        181 |
+    17 E4         177   41   36      |    18 E8        157 |    42 C3B       178 |
+    18 E8         157   48   41      |    13 D6        156 |    75 HI5       177 |
+    19 F2         191   42  133      |    51 E6        151 |    39 B8        177 |
+    20 F3          69  108   67      |    61 B7        150 |    48 D5        176 |
+    21 F4         163   61   96      |    67 D6        147 |    50 E4        175 |
+    22 F6         168   32  102      |     7 B8        145 |    72 G4        174 |
+    23 G2           4   57   55      |    41 C2        144 |    60 B6        173 |
+    24 G4          69   72   40      |    39 B8        141 |    67 D6        166 |
+    25 G5           7  105  209      |    74 G6        140 |    36 A3        166 |
+    26 H7          19   51  204      |    44 C5        139 |    68 E2        165 |
+    27 I3           9  119   53      |     2 A8        131 |    49 E3        158 |
+    28 J2          48   94  127      |    34 Z5        129 |    44 C5        148 |
+    29 J2          83  248  145      |    49 E3        129 |    33 K4        145 |
+    30 J4          69   52  110      |    60 B6        129 |    38 A8        145 |
+    31 J5          25   64  107      |    40 C1        128 |    59 B4        144 |
+    32 K3          96   92   75      |    50 E4        127 |    64 C7        141 |
+    33 K4         105  145   32      |    68 E2        125 |    62 C3D       140 |
+    34 Z5         129   51   61      |    10 C6        122 |    43 C4        131 |
+    35 Z8         121   73   62      |    42 C3B       122 |    58 B2        131 |
+    36 A3         104  166   95      |    35 Z8        121 |    37 A7        125 |
+    37 A7         115  125  113      |    57 A6        121 |     5 B5        124 |
+    38 A8         117  145  125      |    38 A8        117 |    27 I3        119 |
+    39 B8         141  177   86      |    37 A7        115 |    56 A5        119 |
+    40 C1         128  193   73      |     3 B2        115 |    52 H7        114 |
+    41 C2         144  113   68      |    54 J4        114 |    41 C2        113 |
+    42 C3B        122  178   61      |    66 D5        113 |    20 F3        108 |
+    43 C4          96  131   95      |    62 C3D       112 |    16 E3        105 |
+    44 C5         139  148  116      |    75 HI5       108 |    25 G5        105 |
+    45 CD4         78  187  105      |    64 C7        107 |    28 J2         94 |
+    46 D3         268   89   47      |    63 C4        106 |    32 K3         92 |
+    47 D4         235   92  137      |    33 K4        105 |    47 D4         92 |
+    48 D5         234  176  102      |    36 A3        104 |    46 D3         89 |
+    49 E3         129  158   85      |    71 F4         98 |    53 J2         87 |
+    50 E4         127  175  118      |    32 K3         96 |     3 B2         77 |
+    51 E6         151  247   57      |    43 C4         96 |    15 E2         76 |
+    52 H7         277  114  211      |    69 E5         96 |    35 Z8         73 |
+    53 J2         164   87   25      |     1 A3         94 |     8 C2         73 |
+    54 J4         114  188   71      |    65 D0         89 |    24 G4         72 |
+    55 A2          79  209   77      |     4 B4         89 |     9 C4         71 |
+    56 A5         181  119  132      |     8 C2         87 |    31 J5         64 |
+    57 A6         121  201  108      |    72 G4         86 |    21 F4         61 |
+    58 B2         197  131   74      |    29 J2         83 |    13 D6         60 |
+    59 B4          67  144  125      |    70 F3         80 |     2 A8         60 |
+    60 B6         129  173  140      |     5 B5         80 |    23 G2         57 |
+    61 B7         150  181  151      |     9 C4         79 |    30 J4         52 |
+    62 C3D        112  140   81      |    55 A2         79 |    34 Z5         51 |
+    63 C4         106  225  115      |    45 CD4        78 |    26 H7         51 |
+    64 C7         107  141   94      |    30 J4         69 |     7 B8         50 |
+    65 D0          89  200   93      |    20 F3         69 |    14 D7         49 |
+    66 D5         113  261  112      |    24 G4         69 |    18 E8         48 |
+    67 D6         147  166  122      |    59 B4         67 |    11 C7         44 |
+    68 E2         125  165  121      |    28 J2         48 |     6 B7         43 |
+    69 E5          96  205  155      |    31 J5         25 |     1 A3         42 |
+    70 F3          80  222   87      |    26 H7         19 |    19 F2         42 |
+    71 F4          98  228  132      |    16 E3         19 |    17 E4         41 |
+    72 G4          86  174   78      |    27 I3          9 |    12 D2         40 |
+    73 G5         184  228  103      |    25 G5          7 |    10 C6         35 |
+    74 G6         140  219   72      |    23 G2          4 |    22 F6         32 |
+    75 HI5        108  177   60      |    12 D2          0 |     4 B4          0 |
+
+*************************** Calculations finished ***************************

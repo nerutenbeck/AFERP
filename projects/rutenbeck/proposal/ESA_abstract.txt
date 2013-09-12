@@ -1,0 +1,11 @@
+Effects of retention trees on regeneration dynamics in expanding-gap silvicultural treatments in the Acadian Forest
+====================================
+
+## Nathan E. Rutenbeck
+## Robert S. Seymour
+## Ecological Society of America Annual Conference, 2013
+# Session: Sustaining Forest Goods and Services in a time of change: the role of harvest gaps in northern temperate forest regeneration and diversity
+
+
+Introduction: Gap-based silvicultural systems may offer an important approach for foresters and other resource managers who wish to adopt regeneration methods mimicking natural forest disturbance patterns and processes, particularly within systems in which disturbance dynamics are characterized by low intensity and long return intervals. Given their relatively brief history in North America, however, basic questions remain about the utility of such systems in establishing and promoting the growth of desirable mixtures of tree regeneration. We examined spatial patterns in regeneration composition in the context of the Acadian Forest Ecosystem Research Program (AFERP), a long-term gap-based silvicultural experiment with treatments designed to emulate the annual 1% disturbance frequency found throughout the northeastern United States and Canada. 
+Results: We attempted to quantify the impact of retention trees and proximity to the untreated matrix on the composition and development of regeneration within harvest gaps, testing the hypothesis that sapling and regeneration density and composition are dependent on spatial relationships to retention trees and harvest gap edges. We used detrended correspondence analysis to characterize regeneration and sapling plots, looking at changes in ordination patterns based on spatial position. From our analysis, it is apparent that abundant regeneration of all dominant tree species can be found within harvest gaps, though balsam fir and red maple dominate the new cohort, and patterns of composition vary spatially. 

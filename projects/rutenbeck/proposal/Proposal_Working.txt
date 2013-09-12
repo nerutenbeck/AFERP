@@ -1,0 +1,182 @@
+Benefits and Costs of Managing for Complexity and Resilience in the Acadian Forest: Composition and Growth Dynamics of Tree Regeneration in Acadian Gap-Based Silvicultural Systems
+Nathan E. Rutenbeck
+Submitted to Mark Ashton, Malcolm Hunter, Robert Seymour, Aaron Weiskittel, and Alan White
+
+Abstract:
+Global forest resources are being increasingly called upon to provide a diverse array of commodities and services, including timber and non-timber products, wildlife and water quality protection, recreational opportunities, as well as aesthetic and spiritual values. In order to meet these often conflicting demands, many forest scientists advocate a Triad approach by which a portion of the landscape is maintained as permanent reserve, a portion dedicated to intensive silviculture for commodity production, and the rest managed extensively according to the principles of ecological forestry for a balance of multiple uses. In the Acadian forest, a credible network of ecological reserve land is largely in place, as is a productive base of intensively managed forest. By far the biggest challenge in this region has been the development, dissemination, and adoption of silvicultural tools and practices designed for the third leg of the triad, the extensively managed matrix. Responding to the ecologically simplifying effects of a history of successive cyclical exploitation, an appropriate silvicultural framework for the Acadian forest should be designed to restore natural complexity in terms of age structure, species composition, and spatial heterogeneity, as well as providing a reliable method of sustaining the complexity, dynamism, and resilience of the managed forest ecosystem into the future. 
+
+Within the last twenty years, gap-based silvicultural systems that are designed to emulate natural disturbance regimes have been suggested as one tool that foresters can use to accomplish these goals. During this period, the Acadian Forest Ecosystem Project (AFERP) was initiated to experimentally test the effect of two versions of an expanding-gap regeneration treatment on long-term forest composition, structure, and growth dynamics, with the hope that these treatments might provide a key tool in restoring and managing for complexity within the Acadian forest. After twenty years, one of the first steps in beginning to assess the role of this approach for the broader landscape will be to quantify the efficacy of these treatments in establishing and promoting the growth of desirable species mixtures and stand structures from the regenerating cohort. Very little detailed work has been done to date describing the within-gap compositional and growth dynamics of the regeneration layer in these silvicultural systems, and in order to address this need, the proposed research project will accomplish four goals: 1) Describe how the species composition of regeneration varies spatially within the gap with respect to edges and interior residual structure 2) Describe the developmental dynamics of the regenerating cohort over time 3) Quantify the competitive interactions within the regenerating cohort, and 4) Develop and assess a spatially explicit predictive model for regeneration growth and future composition. In accomplishing these goals, the proposed research project will increase knowledge of the effect of spatial heterogeneity on the compositional, competitive and growth dynamics of regeneration within forest harvest gaps, as well as beginning to develop the informational basis needed to adequately assess the efficacy and role of the expanding gap silvicultural systems within the broader forest management toolbox. At its broadest scope, this project also makes a contribution in considering the level of complexity in management necessary to achieving silvicultural goals. 
+
+
+1. Introduction
+
+1.1 Silvicultural Paradigms
+The Enlightenment roots of the science of silviculture in Germany are inextricably embedded in the rise of wood products as a commodity necessary for economic growth. Von Carlowitz’s notion of sustainability in the Sylvicultura oeconomica was not formulated as modern versions of the term often are, with a holistic vision of social, economic, and environmental flourishing, but instead were properly concerned with the need to ensure a sustained yield of timber for mining interests in the kingdom of Saxony (Puettmann et al 2009). During modern times, the United States went through a similar crisis of wood shortage during the late 19th and early 20th centuries, inspiring Gifford Pinchot and others to learn from European experience and traditions in order to propagate the science of forestry here. For its entire history up to the late 20th century, therefore, forestry has been predominantly a science of natural resource management for industrial commodity production. In contrast to these periods of history, however, it is a truism today that forests globally are called upon to provide a much broader variety of vital products and services to meet the needs and values of rapidly growing human societies in a rapidly changing biosphere. Hence instead of their traditional mandate to guarantee a stable supply of timber products (and possibly game species) to a small group of large landowners, forest managers are increasingly called upon to provide a wider array of commodities and services, including lumber and fuelwood, but also encompassing wildlife biodiversity protection, water quality and delivery, recreation and tourism opportunity, carbon emissions offsets, aesthetic, moral, and spiritual values. Some of these diverse products, services, and values fit relatively painlessly into the industrial paradigm of commodity production, while others defy the ability to quantify, let alone merchandize. Because of the resulting tension among expectations of forests and foresters, the need to shift operational frameworks in forest management to meet current expectations represents a true paradigm shift (sensu Kuhn 1970) that is spurring the development of new perspectives and methods in forestry broadly.
+
+Such a paradigm shift for both demands on forests and the science of forestry pose significant challenges. Given a long and noble scientific history and deep sense of tradition, for many foresters it is difficult at any moment to reformulate and re-justify the raison d’être of the profession, and the last 25 years have proven particularly turbulent in this regard. Moreover, for many forests, large areas have been simplified so extensively during the time period when they were seen primarily as a source of raw materials for industrial operations that their future as productive multiple-use lands may be dubious. In other forests, however, the basic difficulties of ensuring consistent wood supply remains of paramount importance, not just for forest products industry players and private ownerships but also on public lands and in disaster areas worldwide that experience deforestation and timber shortages (e.g. Haiti). Foresters, landowners, and stakeholders therefore forget von Carlowitz’s version of forest sustainability at their peril, and it remains important to defend the science of wood production as a vital component of the forestry profession. Yet in addition to these challenges, the economic, cultural, and environmental changes that have driven the development of a ‘New Forestry’ (Gillis 1990, Seymour and Hunter 1992) also present significant opportunities, particularly for silviculturists. Shifting from its roots as an emergency science concerned with stabilizing maximum growth and yield in relatively homogenous forest stands, there is a call upon silviculture to become a broader science of engineering forest ecosystem complexity (Kohn and Franklin 1997, Puettmann et al 2009) within which sustained growth and yield remain important but no longer dominant components. 
+
+Between these described challenges and opportunities, there is of course some balance point, and some of the foremost challenges currently facing forest scientists are both how to describe that balance philosophically, and how to implement it technically. Puettmann et al. (2009) frame this balance as the tension between simplicity and complexity, as exemplified by the tension between the disciplines of silviculture and forest ecology. On one hand, successful forest management requires a certain level of model simplicity in order to reliably predict and direct the course of stand development to ensure that the kinds of structures and concomitant commodities and services we desire are readily producible. One reason that foresters and silviculturists have traditionally emphasized uniform, even-aged treatments, therefore, is their proven success in reliably producing regeneration, efficient growth, and merchantable yields. On the other hand, however, managing pattern and process to protect ecosystem function and resilience requires a threshold of model complexity in order to enable the forest system to respond dynamically to the pressures of environmental change, as well as to meet the varied and unseen demands of future generations. The need for predictability is thus in many ways directly opposed to the call for increased complexity. Accepting overly high levels of complexity can risk wholly abandoning necessary levels of control needed to guarantee that our management actions are effective, and silvicultural treatments become essentially undifferentiable from random cuttings. Conversely, however, retreating staunchly to the ‘command and control’ ethos of the traditional natural resource management paradigm (Holling & Meffe 1996) ignores the changing nature of forests and the changing mandate for forest science to take into account the principles of ecological land management (Dale et al. 2000). The task in developing a New Forestry has been to integrate these tensions into a more flexible yet effective science.
+
+1.2 Technical implementation of New Forestry and the AFERP experiment
+It is trivially uninteresting to note that, philosophically, forest managers would like to achieve all of the benefits of a highly managed industrialized ecosystem and simultaneously protect natural ecosystem pattern, process, and function. The rubber truly meets the road in discussing what kind of technical approaches are needed at both the landscape and stand levels to accomplish a contextually appropriate balance within specific forest types. In the Acadian forest Seymour and Hunter first proposed the triad approach in 1992 as a concrete framework for achieving balance between managing for predictability and managing for complexity at the landscape scale. This proposal laid out a model in which intensive production forests and reserve areas exist within a broader matrix of land managed according to ecological principles(Seymour and Hunter 1992), fulfilling both human use and ecosystem protection demands through integrating segregation or zoning with diverse, multipurpose silvicultural strategies (Diaci et al. 2011). In order to implement the triad framework on the ground, however, there remained a need to develop progressive silvicultural systems that could supplement and improve upon the application of conservative retention policies within otherwise uniform, even-aged, stand level prescriptions. Seymour and Hunter suggested at the time that such systems should integrate knowledge of natural disturbance pattern and process, including temporal variability and spatial heterogeneity, to produce a predictable range of forest conditions through designed disturbance.
+
+Pickett and White (1985) described the disturbance regime of an ecological system as the ‘demography and dispersion of gaps’ within that system. Based on the gap-dynamics successional patterns of the Acadian forest, therefore, the Acadian Forest Ecosystem Project was initiated in 1994 as a way to design and test the effectiveness of disturbance-based silvicultural systems in balancing predictability and complexity. The experiment consists of two silvicultural treatments based on traditional German expanding-gap (femelschlag) techniques, modified such that the designed disturbance emulates as far as feasible the spatial and temporal patterns of the natural disturbance regime common to the Acadian ecoregion (Seymour 2005). Within the AFERP experiment, two treatments are tested against an unharvested control in three replications. In the first of these treatments, 20% of the stand on an areal basis is removed each decade through the creation of 0.2 ha gaps or expansions on those gaps, with a 10 year regeneration window and a 50-year rest period following the first five cycles. The second treatment is one in which 10% of the total stand area is harvested per cutting cycle through the creation of 0.1 ha gaps or expansions, with a 20 year regeneration window and no rest period. Both cutting treatments reserve 10% of basal area in permanent retention, and up to an additional 20% of basal area until the next gap expansion if additional overwood is required to secure regeneration in the gap. Since the time that the AFERP experiment has been initiated, treatments modeled after the experiment have also begun to be applied elsewhere in the Acadian forest, most notably and extensively in the Baxter State Park Scientific Forest Management Area.
+
+In theory, at least, gap-based silvicultural systems such as AFERP rely on predictable species niche partitioning across the varied resource environment of the harvest gap. It is well known, for example, that in the northern hemisphere, light, microclimate, and soil moisture (Canham et al 1990) vary spatially and temporally within the gap environment, and that the physiological ecology of colonizing tree species allows a certain degree of niche partitioning along these resource gradients (Ricklefs 1977), influencing growth patterns (Pacala et al 1994). Gap-based silvicultural systems are designed to make use of these patterns of resource partitioning among different tree species to facilitate the predictable regeneration, recruitment, and growth of mixed species stands with complex structures that are nonetheless within acceptably predictable bounds. In addition to the patterns predicted by niche theory, however, the trajectory of vegetation development within a gap is also ruled by many elements that, though deterministic by nature, are most easily modeled stochastically at the scales in question (Brokaw and Busing 2000). Some such processes include seed dispersal, microsite favorability for recruitment, herbivory, and extreme weather events. An alternative hypothesis to relative predictability based on resource partitioning, therefore, is that stochastic elements largely overwhelm predictable elements of the system, rendering the process of compositional and structural development effectively chaotic  in nature. 
+
+1.3 Research Framework
+
+The abiding overall question facing gap-based silvicultural systems in the Acadian forest and elsewhere is therefore the degree to which with them forest managers are able to reliably produce desired forest conditions, and with what typical range of variation. In other words, do they meet a threshold of reliability and predictability in addition to their utility in enhancing ecological complexity compared to even-aged treatments? This broadly defined question must be broken down further into more narrowly defined components in order to be testable through scientific methods. Four such narrowly defined questions provide the research framework for the proposed research project:
+1)	Are there definitive spatial and temporal patterns of composition and structure when we apply these treatments? 
+2)	To what degree are current patterns predictable given an understanding of starting conditions and processes such as recruitment, competition, and growth?
+3)	What model components are required to make such predictions with sufficient accuracy and precision? Which processes are best modeled stochastically, which mechanistically?
+4)	Can we use our knowledge of spatial patterns, developmental history, and mechanism to make sensible predictions for future development?
+This research proposal is intended to begin to make a contribution through quantifying pattern and process and testing the predictability of the effects of gap-based silvicultural treatments on saptiotemporal composition and growth dynamics of regeneration in harvest gaps. There are four objectives embedded within this framework that are designed to be experimental tests that will help to answer the above research questions:
+1)	Quantify in detail spatiotemporal variation in regeneration composition and structure, both from the southern to northern sides of the gap and with respect to within-gap structure such as retention trees, boundaries between harvest entries, and the harvest-matrix boundary. 
+2)	Reconstruct stand development through dendrochronological methods in order to quantify the historical growth dynamics of regeneration plots. 
+3)	Examine light interception, leaf area, gas exchange, and growth efficiency patterns over time and space in order to better quantify the physiological mechanisms of competition and growth.
+4)	Develop an annual time-step spatially explicit hybrid growth model to predict regeneration developmental patterns. Compare this model to a spatially independent empirical model and to plot data.
+Some preliminary work in the direction of the proposed research has been already been accomplished. In terms of composition, 2003, Schofield compared the understory plant and tree regeneration diversity within harvest gaps to control areas within the AFERP experiment with data collected four years following initial gap harvesting, concluding that regeneration composition and structure at that time was not related to gap position. In terms of investigating structure, Olson (2009) used correlogram and variogram analysis to examine the general spatial patterns of regeneration, concluding a non-random spatial structure of stem density within gaps. Arsenault et al (2011) analyzed permanent plot data to draw conclusions about treatment differences in growth and composition at the stand level, finding that gap size was correlated with regeneration composition, and that gaps and gap edges had an effect on growth. A rigorous spatiotemporal description of within-gap regeneration compositional and growth dynamics has yet to be developed, however. In particular, there has been no examination of spatial regeneration composition and growth patterns following the first round of gap expansion in large gap treatments, and this will be crucial information to gather prior to the third round of gap expansion, which will begin in the winter of 2015.
+
+1.4 Significance and Rationale
+As stated, the overall aim of this study is to quantify the patterns of regeneration development that result from the application of expanding-gap silvicultural systems, and to develop effective methods of prediction based on knowledge of those patterns. From a management standpoint, addressing these questions in sufficient detail will be crucial to assessing the role of expanding gap based silvicultural systems within the toolbox of foresters interested in effectively applying these treatments in the Acadian Forest. The potentially larger impact of this study, however, for the field of ecological forestry more broadly, is a chance to contribute the results of the AFERP study to the larger discussion within the field of the balance between simplicity/predictability and complexity/stochasticity for forest ecosystem management. 
+
+II. Dissertation Plan Draft Notes
+
+What follows is a preliminary outline of each of four chapters plus an epilogue that will constitute the proposed dissertation work. Each main section is organized by a central question, a set of broad working hypotheses, a brief description of an experimental design meant to test those hypotheses, and a general plan for analyzing experimental data. My hope and intent for this project is that each chapter will not only fit into the framework of the overall dissertation question, but also be of sufficient quality to serve as a standalone peer-reviewed publication. For the draft edition of the proposal, I am including some questions and remarks for the committee that indicate aspects of the project of which I am still unsure and feel the need for additional guidance and/or training to resolve.
+
+Chapter 1: Composition and structure
+Question: What are spatial patterns of composition and structure within harvest gaps?
+
+Hypothesis: Composition and structure of regeneration will vary based on overall gap position as well as on spatial relationships to expansion area boundaries and within-gap retention trees. Overall spatial variation in composition and structure across gaps will be predictable, but with high between-gap variation that reflects the stochastic elements of regeneration process. 
+
+Experimental design: Though a permanent plot network currently exists for the AFERP experiment, these are widely distributed across each experimental unit and do not focus on the harvested areas themselves. As an initial proposal for gap-level assessment:
+•	Plot center locations determined by randomly selecting intersections of a 6 meter grid overlaid in ArcGIS, navigating to that spatial position, and selecting the dominant tree of target interest species (white pine, eastern hemlock, spruce spp., balsam fir, red maple) closest to that grid intersection. This tree will form plot center.
+•	Plots: 5.64 meter radius (100th hectare) - ??? - , centered around a dominant tree of focus species 
+•	Plot center measurements:
+o	Soil moisture
+o	Light interception
+o	XY location
+•	Variables measured for all stems >10 cm in height
+o	Species
+o	Diameter
+o	Height
+o	XY location in relation to plot center 
+•	Measurements of dominant tree
+o	Leader growth
+o	Basal cookie
+Analysis: Exploratory work will be done through multidimensional reduction techniques such as clustering and detrended correspondence analysis. Hypothesis testing will be accomplished through structured additive regression within a mixed-effects modeling framework (see Pruscha & Gottlein 2002, Fahrmeir et al 2004). Response variables for models will include species importance value and density metrics, with covariates . Reported results will include generalized height, stem density, and basal area distribution diagrams for each spatial position within the gap and in reference to retention trees.
+
+
+Chapter 2: Developmental history
+Question: How do position within gap and neighborhood spatial relationships effect developmental dynamics over time?
+
+Hypothesis: Recruitment and growth increment over time are significantly affected by neighborhood (within plot) interactions as well as by larger scale spatial relationships to past harvest entries and residual structure.
+
+Objectives: 
+•	Describe patterns of seedling establishment and recruitment to assess the relative importance of advance regeneration versus post-harvest colonization.
+•	Describe spatiotemporal dynamics of established sapling growth over time based on location within gap and proximity to retention trees. 
+Experimental Design: Stem mapping and destructive sampling of randomly selected plots for each gap position across treatments and sites.
+
+Analysis: 
+•	Dendrochronological analysis will be used to describe recruitment and growth patterns. 
+•	Volume increment will be response variable within spatiotemporal regression model (STAR?)
+
+Committee remarks and questions:
+•	I am not exactly sure how to appropriately stratify the destructive sampling effort.
+
+Chapter 3: Competitive dynamics
+Question: How do spatial position and neighborhood relationships affect current leaf area and growth efficiency and photosynthesis rates over time?
+
+Objectives: 
+•	Develop spatially dependent models to predict leaf area.
+•	Describe spatiotemporal physiological ecology patterns (photosynthesis, stomatal conductance, water use efficiency, growth/photosynthesis)
+•	Examine spatial correlations between volume growth, leaf area, and physiological measurements.
+  
+Experimental design: 
+•	Collect leaf area information from destructively sampled plots. 
+•	Compute current growth efficiency based on stem analysis and leaf area. 
+•	Use stable isotope analysis to estimate patterns in physiological ecology - photosynthesis, water use efficiency (for reviews see Dawson et al 2002, McCarroll and Loader 2004). 
+•	Compute relative growth based on stem analysis and stable isotopes.
+
+Analysis: 
+•	Gas exchange characteristics will be response variable for a spatiotemporal analysis within a mixed modeling framework. 
+•	Growth efficiency and leaf area patterns will be response variables for a spatial analysis.
+•	Examine correlation between volume growth from Chapter 2, leaf area patterns, and gas exchange characteristics.
+
+Committee Questions and Remarks:
+•	I have no experience with and so far limited knowledge of isotope analysis techniques.
+•	I like the idea of looking first at the spatial distribution of composition and structure, linking over time to recruitment and growth, and then linking growth to physiological characteristics. I understand, however, that direct correlations between growth and photosynthesis are tenuous due to the complexity of the various carbon sinks within the tree. Looking at changing patterns of growth relative to physiological measures may allow inference regarding the relative importance of net photosynthesis to growth rates across space and time, however.
+
+Chapter 4: Testing the state of predictability
+Question: Do we require spatially-explicit, partially mechanistic models to adequately represent the composition and growth patterns of regeneration, or are spatially independent empirical models sufficient?
+
+Hypothesis: Distance independent tree list models (FVS) are unrealistic for representing the complexity of spatially heterogeneous gap harvests. A spatially explicit model that is a hybrid between traditional gap-modeling, mechanistic, and empirical approaches will provide more realistic estimates of composition and growth dynamics across the gap environment.
+
+Objectives: 
+•	Develop a spatially explicit hybrid growth model for regeneration within the gap. 
+•	Conduct sensitivity analyses.
+•	Test the spatially explicit model against a spatially independent null-model by using both to predict growth dynamics.
+
+Model design: Hybrid between gap modeling (for review see Bugmann 2001), mechanistic, and empirical approaches (Weiskittel et al 2011)
+•	Begin with prior advance regeneration and residual structure
+•	Add stochastic seed rain for colonizers based on empirical composition and recruitment patterns
+•	Predict growth from empirical increment data
+•	Adjust growth by light interception, physiological ecology data
+Analysis: 
+•	Sensitivity analysis using GSA approaches (see e.g. Harper et al 2011)
+•	Compare composition and growth predictions from spatially explicit and spatially independent growth models. 
+
+Committee Questions and Remarks:
+•	Ideally, I would like the predictive model I develop to be useful not just for hypothesis testing within this research framework. For me, this means figuring out a way potentially for the model to wrap to the Acadian variant of FVS that is currently under development, despite the spatially explicit nature of the proposed model and the spatially independent nature of FVS.
+•	I wonder about the tradeoffs and utility of mechanistic versus empirical approaches, especially if what is of interest is growth and composition change.
+
+Epilogue: How simple is as simple as possible (but not too simple)?
+
+The principle of Einstein’s Razor applies in the adoption of gap-based silvicultural systems: “All models should be as simple as possible, but no simpler.” This chapter is intended as a synthetic capstone reflecting on the implications of the results from this study on the broader discussion regarding the balance between complexity and simplicity in silvicultural systems. I hope to use it as a springboard for developing future directions of inquiry and development.
+
+III. Timeline
+
+See spreadsheet.
+
+IV. Budget Categories
+
+Field sampling
+•	Field assistants
+•	Travel
+•	Equipment
+Dendrochronological analysis
+•	Assistant
+Isotope analysis
+•	Lab fees (possibly)
+
+V. References
+Brokaw, N., Busing, R., 2000. Niche versus chance and tree diversity in forest gaps. Trends in ecology & evolution 15, 183–188.
+Brooks, J.R., Mitchell, A.K., 2011. Interpreting tree responses to thinning and fertilization using tree-ring stable isotopes. The New phytologist 190, 770–82.
+Bugmann, H., 2001. A Review of Forest Gap Models. Climatic Change 51, 259–305.
+Canham, C.D., Denslow, J.S., Platt, W.J., Runkle, J.R., Spies, T.A., White, P.S., 1990. Light regimes beneath closed canopies and tree-fall gaps in temperate and tropical forests. Canadian Journal of Forest Research 20, 620–631.
+Coates, K.D., 2000. Conifer seedling response to northern temperate forest gaps. Forest Ecology and Management 127, 249–269.
+Coates, K.D., 2002. Tree recruitment in gaps of various size, clearcuts, and undisturbed mixed forest of interior British Columbia, Canada. Forest Ecology and Management 155, 387–389.
+Coates, K.D., Burton, P.J., 1997. A gap-based approach for development of silvicultural systems to address ecosystem management objectives. Forest Ecology and Management 99, 337–354.
+Dale, V.., Brown, S., Haeuber, R.A., Hobbs, N.T., Huntley, N., Naiman, R.J., Riebsame, W.E., Turner, M.G., Valone, T.J., 2000. Ecological Principles and guidelines for Managing the Use of Land. Ecological Applications 10, 639–670.
+Dawson, T.E., Mambelli, S., Plamboeck, A.H., Templer, P.H., Tu, K.P., 2002. Stable Isotopes in Plant Ecology. Annual Review of Ecology and Systematics 33, 507–559.
+Denslow, J.S., 1980. Patterns of Plant Species Diversity during Succession under Different Disturbance Regimes. Oecologia 46, 18–21.
+Diaci, J., Kerr, G., O’hara, K., 2011. Twenty-first century forestry: integrating ecologically based, uneven-aged silviculture with increased demands on forests. Forestry 84, 463–465.
+Fahrmeir, L., Kneib, T., Lang, S., 2004. Penalized Structured Additive Regression for Space-Time Data: A Bayesian Perspective. Statistica Sinica 14, 731–761.
+Harper, E.B., Stella, J.C., Fremier, A.K., 2011. Global sensitivity analysis for complex ecological models: a case study of riparian cottonwood population dynamics. Ecological applications?: a publication of the Ecological Society of America 21, 1225–40.
+Harper, K.A., Macdonald, S.E., Karen, A., Ellen, S., 2013. Structure and Composition of Edges Next to Regenerating Clear-Cuts in Mixed-Wood Boreal Structure and composition of edges next to regenerating clear-cuts in mixed-wood boreal forest. Journal of Vegetation Science 13, 535–546.
+Holling, C.S., Meffet, G.K., 1996. Command and Control and the Pathology of Natural Resource Management. Conservation Biology 10, 328–337.
+Kneib, T., Fahrmeir, L., 2006. Structured additive regression for categorical space-time data: a mixed model approach. Biometrics 62, 109–18.
+Kuhn, T.S., 1970. The Structure of Scientific Revolutions, Second. ed. University of Chicago Press, Chicago.
+Leavitt, S., Long, A., 1982. Stable carbon isotopes as a potential supplemental tool in dendrochronology. Tree Ring Bulletin 42, 49–55.
+McCarroll, D., Loader, N.J., 2004. Stable isotopes in tree rings. Quaternary Science Reviews 23, 771–801.
+Oliver, C.D., Larson, B.C., 1996. Forest Stand Dynamics. John Wiley and Sons, New York, New York, USA.
+Pruscha, H., Göttlein, A., 2002. Regression analysis of forest inventory data with time and space dependencies. Environmental and Ecological Statistics 9, 43–56.
+Puettmann, K.J., Coates, K.D., Messier, C., 2009. A Critique of Silviculture: Managing for Complexity. Island Press, Washington D.C.
+Runkle, J.R., 1981. Gap Regeneration in Some Old-growth Forests of the Eastern United States. Ecology 62, 1041–1051.
+Seymour, R.S., 2005. Integrating Natural Disturbance Parameters into Conventional Silvicultural Systems: Lessons from the Acadian Forest of Northeastern North America, in: Peterson, C.E., Maguire, D.A. (Eds.), Balancing Ecosystem Values: Innovative Experiments for Sustainable Forestry. United States Department of Agriculture Forest Service, pp. 41–48.
+Seymour, R.S., Malcolm, L., 1992. New Forestry in Eastern Spruce-Fir Forests?: Principles and Applications to Maine. Orono, Maine.
+Watt, A.S., 1947. Pattern and Process in the Plant Community. Journal of ecology 35, 1–22.
+Weiskittel, A.R., Hann, D.W., Kershaw, J.A., Vanclay, J.K., 2011. Forest Growth and Yield Modelling. John Wiley & Sons, Chichester, UK.
+Wiersum, K.F., 1995. 200 years of sustainability in forestry: Lessons from history. Environmental Management 19, 321–329.
+
