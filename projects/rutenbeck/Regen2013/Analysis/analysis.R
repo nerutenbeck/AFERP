@@ -6,6 +6,10 @@
 ##  
 #################################################
 
+# Built under R Version 3.0.1
+
+rm(list=ls())
+
 library(rgdal)
 library(rgeos)
 library(spgrass6)
@@ -24,7 +28,7 @@ library(mclust)
 
 ### RA polygons
 
-RAs.spdf<-readOGR(dsn='shp/layout',layer='RAs')
+RAs.spdf<-readOGR(dsn='Data/shp/layout',layer='RAs')
 names(RAs.spdf)<-c('trt','perimeter','area','RA')
 
 RAs.spdf@data$id<-rownames(RAs.spdf@data)
@@ -38,7 +42,7 @@ head(RAs.df)
 
 ### Harvest polygons
 
-harvests.spdf<-readOGR(dsn='shp/layout',layer='Harvests')[,-6]
+harvests.spdf<-readOGR(dsn='Data/shp/layout',layer='Harvests')[,-6]
 names(harvests.spdf)<-c('year','entry','perimeter','area','RA')
 
 harvests.spdf@data$id<-rownames(harvests.spdf@data)
@@ -51,14 +55,14 @@ names(harvests.df)
 ### Retention trees
 
 # spatial locations
-RTs.spdf<-readOGR(dsn='shp/layout',layer='Retention_trees')[,5:6]
+RTs.spdf<-readOGR(dsn='Data/shp/layout',layer='Retention_trees')[,5:6]
 names(RTs.spdf)
 
 RTs.df<-cbind(coordinates(RTs.spdf),RTs.spdf@data,over(RTs.spdf,harvests.spdf))[,-10]
 head(RTs.df)
 
 # measurements
-RT_inv<-read.table('RT_inventories.txt',header=T,sep='\t')
+RT_inv<-read.table('./Data/RT_inventories.txt',header=T,sep='\t')
 names(RT_inv)
 names(RT_inv)[2]<-'RT'
 RTs.df<-join(RTs.df,RT_inv,by=c('RA','RT'))
@@ -76,14 +80,14 @@ summary(RTs.df)
 # proj4string(plots.spdf)<-proj4string(harvests.spdf)
 # writeOGR(plots.spdf,dsn='.',layer='plots',driver='ESRI Shapefile',overwrite_layer=T)
 
-plots.spdf<-readOGR(dsn='.',layer='plots')
+plots.spdf<-readOGR(dsn='./Data',layer='plots')
 plots.df<-cbind(coordinates(plots.spdf),plots.spdf@data,over(plots.spdf,harvests.spdf))
 names(plots.df)
 
 ### Selected sample gaps 
 ### (selected by numbering on paper maps for each RA, then random number generation in R)
 
-smp_gaps<-readOGR(dsn='shp/regen_project',layer='sample_gaps')[,-6]
+smp_gaps<-readOGR(dsn='Data/shp/regen_project',layer='sample_gaps')[,-6]
 names(smp_gaps)<-c('year','entry','perimeter','area','RA')
 smp_gaps@data$id<-rownames(smp_gaps@data)
 smp_gaps.pts<-fortify(smp_gaps,region='id')
@@ -149,9 +153,12 @@ plots.df<-unique(join(plots.df,harvests.df[,8:13]))
 head(plots.df)
 
 
+#################################
+
+
 ### Bring in regeneration data
 
-regen<-read.table('trees.txt',sep='\t',header=T)
+regen<-read.table('Data/trees.txt',sep='\t',header=T)
 head(regen)
 summary(regen)
 regen<-orderBy(~plot+spp-top_ht,data=regen)
@@ -176,20 +183,19 @@ qplot(data=regen,x=ba,geom='histogram',binwidth=10)+facet_wrap(~spp)
 
 regen.mlt<-data.frame(unique(melt(regen,id='plot','spp')),pr=1)
 head(regen.mlt)
-
+summary(regen.mlt)
 pr.mat<-dcast(regen.mlt,plot~value,value.var='pr',fill=0)
-
-rownames(pr.mat)<-pr.mat$plot
-head(pr.mat)
+pr.mat<-pr.mat[-c(1,6,121),]
+row.names(pr.mat)<-pr.mat$plot
 
 pr_ab.dist<-dist(pr.mat[,2:length(pr.mat)], method='binary')
 
 pr_ab.fit<-hclust(pr_ab.dist,method='complete')
 plot(pr_ab.fit,main='Presence-Absence Clusters',xlab='Binary Distance, Complete Linkage')
 
-rect.hclust(pr_ab.fit,k=4,border='red')
+rect.hclust(pr_ab.fit,k=6,border='red')
 
-pr_ab.grps<-cutree(pr_ab.fit,k=4)
+pr_ab.grps<-cutree(pr_ab.fit,k=6)
 
 pr.mat$pr.grp<-pr_ab.grps
 
@@ -197,6 +203,8 @@ pr.mat[pr.mat$pr.grp==1,] # Maple - fir - pine?
 pr.mat[pr.mat$pr.grp==2,] # Fir-hemlock
 pr.mat[pr.mat$pr.grp==3,] # Pine-Spruce-Oak
 pr.mat[pr.mat$pr.grp==4,] # Maple - hardwood - pine
+pr.mat[pr.mat$pr.grp==5,] # Maple - hardwood - pine
+pr.mat[pr.mat$pr.grp==6,] # Maple - hardwood - pine
 
 
 head(plots.df)
@@ -219,12 +227,13 @@ ba.dist<-dist(ba.mat[,2:length(ba.mat)])
 
 ba.fit<-hclust(ba.dist,method='ward')
 plot(ba.fit,xlab='Presence-Absence Distance')
-rect.hclust(ba.fit,k=2,border='red')
+rect.hclust(ba.fit,k=3,border='red')
 
 ba.mat$ba.grp<-cutree(ba.fit,k=4)
 
 ba.mat[ba.mat$ba.grp==1,] # Mostly empty?
-ba.mat[ba.mat$ba.grp==2,] # Pine - Fir
+ba.mat[ba.mat$ba.grp==2,] # Fir- Pine mixtures
+ba.mat[ba.mat$ba.grp==3,] # Fir mixtures (no pine)
 
 plots.df<-join(plots.df,ba.mat[,c(1,length(ba.mat))])
 head(plots.df)
@@ -243,14 +252,15 @@ ht.dist<-dist(ht.cst[,2:length(ht.cst)])
 ht.fit<-hclust(ht.dist,method='ward')
 
 plot(ht.fit)
-rect.hclust(ht.fit,k=3,border='red')
+rect.hclust(ht.fit,k=4,border='red')
 
-ht.cst$ht.grp<-cutree(ht.fit,k=3)
+ht.cst$ht.grp<-cutree(ht.fit,k=4)
 ht.cst$ht.grp
 
 ht.cst[ht.cst$ht.grp==1,] # Pine-hardwood?
 ht.cst[ht.cst$ht.grp==2,] # Fir-maple-pine?
 ht.cst[ht.cst$ht.grp==3,] # Maple-fir
+ht.cst[ht.cst$ht.grp==4,] # Maple-fir
 
 plots.sv<-plots.df
 plots.df<-plots.sv
@@ -270,10 +280,12 @@ qplot(data=regen2,x=top_ht,y=spp)+facet_wrap(~ba.grp)+ggtitle('Basal Area Cluste
 qplot(data=regen2,x=top_ht,y=spp)+facet_wrap(~ht.grp)+
   ggtitle('Height Clusters')+
   xlab('top height (cm)')
+pdf('hclust.pdf')
 qplot(data=regen2[regen2$ht.grp==1,],x=top_ht)+facet_wrap(~spp)+ggtitle('Height Cluster 1')
 qplot(data=regen2[regen2$ht.grp==2,],x=top_ht)+facet_wrap(~spp)+ggtitle('Height Cluster 2')
 qplot(data=regen2[regen2$ht.grp==3,],x=top_ht)+facet_wrap(~spp)+ggtitle('Height Cluster 3')
-
+qplot(data=regen2[regen2$ht.grp==4,],x=top_ht)+facet_wrap(~spp)+ggtitle('Height Cluster 4')
+dev.off()
 
 tmp<-ddply(regen2,.(plot,spp),summarize,
            top_ht=max(top_ht))
@@ -298,12 +310,12 @@ tall.tab$Species<-factor(tall.tab$Species,
                          levels=tall.tab$Species)
 
 tall.tab
-
+pdf('tallest.pdf',width=10)
 ggplot(tall.tab[tall.tab$Freq>0,],
        aes(x=Species,y=Frequency))+
   geom_bar(stat='identity')+
   ggtitle('Frequency of Tallest Tree')
-
+dev.off()
 
 
 
@@ -325,6 +337,8 @@ ct<-table(na.omit(plots.df$ht.grp),predict(fm1)$class)
 prop.table(ct,1)
 diag(prop.table(ct, 1)) # percent correct for each cluster
 sum(diag(prop.table(ct))) # percent correct overall
+
+# Multinomial logistic regression
 
 fm2<-multinom(ht.grp~trt+area+entry+RT.BA,data=plots.df)
 fm2
