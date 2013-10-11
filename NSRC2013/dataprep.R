@@ -31,12 +31,11 @@ head(plotBAs)
 
 
 RABAs<-ddply(plotBAs,.(RA,INV),summarize,
-             avgPlotBA=sum(BA/length(PLOT)),
-             nplots=length(PLOT))
+             BA=sum(BA/length(PLOT))*20)
 RABAs
 
 
-ggplot(RABAs,aes(x=INV,y=BA))+geom_line()+facet_wrap(~RA)
+ggplot(RABAs,aes(x=INV,y=BA))+geom_area()+facet_wrap(~RA)
 
 head(SAPinv)
 head(SAPtrees)
@@ -50,6 +49,36 @@ sap<-sap[complete.cases(sap),]
 
 sap$BA<-((pi*sap$DBH/2)^2)/10000
 
-head(sap)
 
-plotSapBAs<-ddply(sap,.(RA,PLOT,INV))
+RAsapBAs<-ddply(sap,.(RA,INV),summarize,
+                  BA=sum(BA/length(PLOT))*100)
+
+str(RAsapBAs)
+str(RABAs)
+RAsapBAs$source<-'saplings'
+RABAs$source<-'overstory'
+
+
+ggplot(RAsapBAs,aes(x=INV,y=BA))+geom_area()+facet_wrap(~RA)
+
+pdf('BAtime_RAs.pdf',width=10)
+ggplot(RABAs,aes(x=INV,y=BA,color=source))+geom_area()+facet_wrap(~RA)+
+  ylab(expression(''*m^2*'/HA'))+
+  xlab('Inventory')
+dev.off()
+
+path<-'g:/documents/research/AFERP/projects/rutenbeck/Regen2013/Analysis/Data/shp/layout'
+
+RAs.spdf<-readOGR(dsn=path,layer='RAs')
+names(RAs.spdf)<-c('trt','perimeter','area','RA')
+
+RAs.spdf@data$id<-rownames(RAs.spdf@data)
+
+RAs.pts<- fortify(RAs.spdf,region='id')
+RAs.df<-join(RAs.pts,RAs.spdf@data)
+ggplot(RAs.df,aes(long,lat,group=group,fill=factor(RA))) + 
+  geom_polygon() +
+  geom_path(color="white") +
+  coord_equal()
+head(RAs.df)
+
